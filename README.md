@@ -28,4 +28,23 @@
 4. Kết quả được hiển thị trên màn hình.
 
 ## 3. Cấu trúc dự án
+factorial-app/
+├── app.py
+├── factorial.py
+└── requirements.txt
+
+
+- `factorial.py`: chứa hàm tính giai thừa.
+- `app.py`: chứa giao diện và xử lý tương tác với người dùng.
+- `requirements.txt`: danh sách thư viện cần thiết.
+
+## 4. Nội dung các file
+
+### File `factorial.py`
+```python
+def fact(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * fact(n - 1)
 
